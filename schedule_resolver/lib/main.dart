@@ -27,7 +27,8 @@ class ScheduleResolverApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       title: 'Schedule Resolver',
-      theme: ThemeData(
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink),
       useMaterial3: true,
       textTheme: GoogleFonts.interTextTheme(Theme.of(context).textTheme),

@@ -53,7 +53,7 @@ class AiScheduleService extends ChangeNotifier {
 
       _currentAnalysis = _parseResponse(response.text ?? '');
     }catch (e) {
-      _errorMessage = 'Failed: \$e';
+      _errorMessage = 'Failed: $e';
     } finally {
       _isLoading = false;
       notifyListeners();
